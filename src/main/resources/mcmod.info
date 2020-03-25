@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bpelevators",
+  "name": "Better Plant Elevators",
+  "description": "Made for Randomized Mod Jam 2020.  Contains various elevators that grow out of the ground.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "ramoja.mikemk.net",
+  "updateUrl": "",
+  "authorList": ["Mikemk"],
+  "credits": "Mikemk, the developer; McJty for his good tutorials at wiki.mcjty.eu; and The Forge and FML guys, for making the MDK",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
