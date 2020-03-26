@@ -36,8 +36,7 @@ public class CommonProxy {
 
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		BPElevators.logger.info("block registration started");
-		event.getRegistry().register(new BlockShulkerRose());
+		ModBlocks.registerBlocks(event);
 	}
 
 	@SubscribeEvent

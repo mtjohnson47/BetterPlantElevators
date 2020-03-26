@@ -14,7 +14,7 @@ public class Config {
 	public static boolean isElevatorStalkEnabled = true;
 	public static int elevatorStalkMaxLength = 40;
 	public static boolean isShulkerRoseEnabled = true;
-	public static int shulkerRoseTime = 300;
+	public static int shulkerRoseTime = 15;
 
 	public static void readConfig() {
 		Configuration cfg = CommonProxy.config;
@@ -38,6 +38,6 @@ public class Config {
 		isShulkerRoseEnabled = cfg.getBoolean("ShulkerRoseEnabled", CATEGORY_PLANTS, isShulkerRoseEnabled, "Is the Shulker Rose Enabled?");
 		ladderVineMaxLength = cfg.getInt("LadderVineMaxLength", CATEGORY_PLANTS, ladderVineMaxLength, 1, 256, "How high above the last support block can ladder vines grow?");
 		elevatorStalkMaxLength = cfg.getInt("ElevatorStalkMaxLength", CATEGORY_PLANTS, elevatorStalkMaxLength, 2, 255, "How tall can elevator stalks grow?");
-		shulkerRoseTime = cfg.getInt("ShullkerRoseTime", CATEGORY_PLANTS, shulkerRoseTime, 1, Integer.MAX_VALUE, "How long, in ticks, should the levitation effect of the shulker rose last?");
+		shulkerRoseTime = cfg.getInt("ShullkerRoseTime", CATEGORY_PLANTS, shulkerRoseTime, 1, Integer.MAX_VALUE, "How long, in seconds, should the levitation effect of the shulker rose last?");
 	}
 }
